@@ -15,3 +15,5 @@ window.addEventListener("mousedown", function(e) {
 window.addEventListener("mouseup", function(e) {
     caleb.src = normal;
 });
+
+caleb.ondragstart = () => {return false;};
