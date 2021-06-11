@@ -1,6 +1,6 @@
 let caleb = document.getElementById("Caleb");
-const normal = "caleb.png";
-const thonk = "5head.png";
+const normal = "caleb.webp";
+const thonk = "5head.webp";
 
 window.addEventListener("mousemove", function(e) {
     let targetx = e.x - (caleb.getBoundingClientRect().left + caleb.getBoundingClientRect().right) / 2;
