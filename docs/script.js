@@ -2,6 +2,9 @@ let caleb = document.getElementById("Caleb");
 const normal = "caleb.webp";
 const thonk = "5head.webp";
 
+caleb.src = thonk;
+caleb.src = normal;
+
 window.addEventListener("mousemove", function(e) {
     let targetx = e.x - (caleb.getBoundingClientRect().left + caleb.getBoundingClientRect().right) / 2;
     let targety = e.y - (caleb.getBoundingClientRect().top + caleb.getBoundingClientRect().bottom) / 2;
